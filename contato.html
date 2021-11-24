@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENVIE UMA MENSAGEM</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style-contato.css">
+</head>
+<body>
+    
+    <div class="barra-fixa">
+        <div class="container">
+          <div class="nav">
+            <div class="logo">
+              <a href="/">
+                <img src="img/logoDourada.png" alt="Logo Barbearia Valhalla" />
+              </a>
+            </div>
+            <div class="menu">
+              <ul>
+              <li><a href="index.html" rel="next" target="_self">Home</a></li>
+              <li><a href="sobre.html" rel="next" target="_self">Sobre</a></li>
+              <li><a href="blog.html" rel="next" target="_self">Blog</a></li>
+              <li><a href="unidades.html" rel="next" target="_self">Unidades</a></li>
+              <li><a href="franquia.html" rel="next" target="_self">Franquia</a></li>
+              <li><a href="contato.html" rel="next" target="_self">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contato container">
+
+        <form action="codigo/contato.php" method="POST">
+            <div class="top">
+                <div class="top-1">
+                    <label for="nome"></label>
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                </div>
+                <div class="top-2">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div>
+                    <label for="assunto"></label>
+                    <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+                </div>
+                <div>
+                    <label for="sms"></label>
+                    <textarea name="mensagem" id="sms" rows="15" placeholder="Mensagem"></textarea>
+                </div>
+            
+
+            <div class="captcha">
+                <label>
+                  <input type="checkbox" name="captcha" />
+                  Não sou um robô
+                </label>
+            </div>
+
+            <div class="enviar">
+                <button class="button" type="submit">Enviar</button>
+            </div>
+            </div>
+
+        </form>
+      </div>
+
+      <div class="contato-1 container">
+          <div class="telefone">
+              <img src="img/Telephone-icon.png" alt="">
+              <div class="title-1">Para contato por telefone, procure a unidade</div>
+              <div class="title-1"><a href="unidades.html" rel="next" target="_self">clicando aqui</a></div>
+          </div>
+          <div class="email">
+            <img src="img/carta-icon.png" alt="">
+              <div class="title-1">Entre em contato através do nosso email:</div>
+            <div class="title-amarelo">contato@barbeariavip.com.br</div>
+          </div>
+      </div>
+
+      <div class="caixa-final">
+    </div>
+
+    <div class="direitos title-amarelo">
+       Barbearia Valhalla todos os direitos reservados
+    </div>
+</body>
+</html>

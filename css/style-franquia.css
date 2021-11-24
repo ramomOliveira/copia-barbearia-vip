@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Teko", sans-serif;
+    background-color: #212121;
+  }
+
+  .title-1 {
+      color: white;
+      font-size: 50px;
+      line-height: 50px;
+      font-weight: 400;
+      text-transform: uppercase;
+  }
+
+  .title-2 {
+      color: #DEDEDE;
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+  }
+
+  .logo img {
+    height: 100px;
+  }
+  
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .container .nav .menu ul li a:hover {
+    color: #e8b148;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+  }
+  
+  .menu ul li {
+    margin-right: 30px;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .ico {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+  }
+
+  .ico img {
+      width: 50px;
+      height: 50px;
+  }
+
+  .contato {
+      margin-top: 50px;
+  }
+
+  .contato label {
+      color: white;
+      display: block;
+      font-size: 25px;
+      line-height: 25px;
+      font-weight: bold;
+  }
+
+  .contato input,
+.contato select,
+.contato textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #474849;
+  border: 0;
+  margin-bottom: 10px;
+  color: #7c7d7d;
+}
+
+.contato input[type="checkbox"] {
+    width: auto;
+  }
+  
+  .captcha label {
+    background-color: white;
+    display: inline-block;
+    color: #474849;
+    padding: 10px;
+  }
+
+  .contato .enviar {
+      display: flex;
+      margin-top: 50px;
+      
+  }
+
+  .contato .enviar .button {
+      color: black;
+      font-size: 20px;
+      padding: 15px;
+      background-color: #E9C664;
+      border: 0;
+      font-weight: 400;
+  }
+
+  .caixa-final {
+    width: 100%;
+    height: 220px;
+    background-color: #212121;
+    margin-top: 80px;
+  }
+  
+  .direitos {
+    display: flex;
+    width: 100%;
+    height: 86px;
+    background-color: #212121;
+    justify-content: center;
+    align-items: center;
+    color: #E9C664;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-top: 1px solid rgba(180, 180, 180, 0.2);
+  }

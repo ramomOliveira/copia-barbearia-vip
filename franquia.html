@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEJA UM FRANQUEADO</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style-franquia.css">
+</head>
+<body>
+    
+    <div class="barra-fixa">
+        <div class="container">
+          <div class="nav">
+            <div class="logo">
+              <a href="/">
+                <img src="img/logoDourada.png" alt="Logo Barbearia Valhalla" />
+              </a>
+            </div>
+            <div class="menu">
+              <ul>
+              <li><a href="index.html" rel="next" target="_self">Home</a></li>
+              <li><a href="sobre.html" rel="next" target="_self">Sobre</a></li>
+              <li><a href="blog.html" rel="next" target="_self">Blog</a></li>
+              <li><a href="unidades.html" rel="next" target="_self">Unidades</a></li>
+              <li><a href="franquia.html" rel="next" target="_self">Franquia</a></li>
+              <li><a href="contato.html" rel="next" target="_self">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ico container">
+          <div class="calender">
+              <img src="img/ico-calender.png" alt="">
+              <p class="title-1">45</p>
+              <p class="title-2">unidades comercializadas</p>
+          </div>
+
+          <div class="1-pepoo">
+              <img src="img/ico-1-pessoa.png" alt="">
+              <p class="title-1">188090</p>
+              <p class="title-2">clientes atendidos</p>
+          </div>
+
+          <div class="2-pepoo">
+              <img src="img/ico-2-pessoas.png" alt="">
+              <p class="title-1">892</p>
+              <p class="title-2">serviços por dia</p>
+          </div>
+
+          <div class="crescimento">
+              <img src="img/seta.png" alt="">
+              <p class="title-1">29</p>
+              <p class="title-2">crescimento em (%) 2019</p>
+          </div>
+      </div>
+
+      <div class="contato container">
+
+        <form action="codigo/contato.php" method="POST">
+
+            <div>
+                <label for="nome">Nome (obrigatório)</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail (obrigatório)</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="telefone">Telefone (obrigatório)</label>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+
+            <div>
+                <label for="capital">Capital disponivel</label>
+                <select name="capital" id="capital" >
+                    <option value="nada">---</option>
+                    <option value="100">até 100 mil</option>
+                    <option value="200">101 mil a 200 mil</option>
+                    <option value="300">201 mil a 300 mil</option>
+                    <option value="acima">Acima de 301 mil</option>
+                    <option value="nao">Prefiro não informar</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="experiencia">Tempo de experiência profissional:</label>
+                <select name="experiencia" id="experiencia">
+                    <option value="1">1 ano ou menos</option>
+                    <option value="2">1 e 2 anos</option>
+                    <option value="3">3 a 4 anos</option>
+                    <option value="4">4 a 5 anos</option>
+                    <option value="5">Mais de 5 anos</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="sms">Conte um pouco da sua história e em qual cidade pretende operar</label>
+                <textarea name="mensagem" id="sms" rows="15"></textarea>
+            </div>
+
+            <div class="captcha">
+                <label>
+                  <input type="checkbox" name="captcha" />
+                  Não sou um robô
+                </label>
+            </div>
+
+            <div class="enviar">
+                <button class="button" type="submit">Enviar</button>
+            </div>
+        </form>
+
+      </div>
+
+      <div class="caixa-final">
+    </div>
+
+    <div class="direitos title-amarelo">
+       Barbearia Valhalla todos os direitos reservados
+    </div>
+
+</body>
+</html>

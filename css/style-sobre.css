@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Teko", sans-serif;
+  background-color: #212121;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.container .nav .menu ul li a:hover {
+  color: #e8b148;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.menu ul li {
+  margin-right: 30px;
+}
+
+.menu ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sobre {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.conceito {
+    color: #E9C664;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 2%;
+    width: 33%;
+    line-height: 40px;
+}
+
+.texto {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0 4%;
+    width: 67%;
+    line-height: 25px;
+}
+
+.ferramentas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    color: #8B8B8B;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.chaves {
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.chaves:hover {
+    background-color: #E9C664;
+    color: white;
+}
+
+.engrenagen {
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.engrenagen:hover {
+    background-color: #E9C664;
+    color: white;
+}
+
+.carrinho {
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.carrinho:hover {
+    background-color: #E9C664;
+    color: white;
+}
+
+.planeta {
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.planeta:hover {
+    background-color: #E9C664;
+    color: white;
+}
+
+.caixa-final {
+    width: 100%;
+    height: 220px;
+    background-color: #212121;
+    margin-top: 80px;
+  }
+  
+  .direitos {
+    display: flex;
+    width: 100%;
+    height: 86px;
+    background-color: #212121;
+    justify-content: center;
+    align-items: center;
+    color: #E9C664;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-top: 1px solid rgba(180, 180, 180, 0.2);
+  }
